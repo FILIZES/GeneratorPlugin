@@ -1,0 +1,15 @@
+name: GeneratorPlugin
+version: '${project.version}'
+main: org.filizes.generatorplugin.Main
+load: STARTUP
+authors: [FILIZES]
+description: RoomsGenerator by FILIZES
+depend:
+  - WorldEdit
+commands:
+  generaterooms:
+    description: Генерация зон
+    usage: /generaterooms
+  clearroom:
+    description: удалить зоны
+    usage: /clearroom
